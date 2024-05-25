@@ -45,8 +45,10 @@ html, body{
 }
 
 .left{
-    background-color: aqua;
+    background: url(./assets/df51e31575335181a8c21ac8e0be0297.jpg) bottom;
+    background-size: cover;
     grid-row: 1 / 3;
+
 }
 
 .right{
@@ -94,7 +96,7 @@ button.btn{
     background-color: #d3d3d3;
     margin-top: 30px;
     padding: 15px 60px;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .right_bottom{
@@ -107,3 +109,7 @@ button.btn{
     /* justify-items: end; */
     justify-self: flex-end;
 }
+
+
+
+
